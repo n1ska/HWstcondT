@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100; //баланс клиента
-        int y = 2000; //пополнение
+        int balance = 100; //баланс клиента
+        int amount = 2000; //пополнение
 
-        if (y > 1000) {
-            System.out.println("Баланс счета " + (y + x + y / 100));
+        if (amount > 1000) {
+            System.out.println("Баланс счета " + (amount + balance + amount / 100));
         } else {
-            System.out.println("Баланс счета " + (x + y));
+            System.out.println("Баланс счета " + (balance + amount));
         }
     }
 }
